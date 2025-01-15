@@ -57,7 +57,7 @@ nav.nh2 {
     background-color: rgb(15, 15, 15);
     width: 100%;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 20px 20px 20px 20px;
     animation-name: wysuniecie1;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -91,6 +91,15 @@ a.main {
 }
 
 a.main:hover{
+    color: rgb(15, 15, 15);
+}
+
+a.up {
+    color: rgb(75, 75, 75);
+    display: none;
+}
+
+a.up:hover {
     color: rgb(15, 15, 15);
 }
 
@@ -208,6 +217,9 @@ iframe {
         width: 80%;
         height: 35vw;
     }
+    iframe {
+        width: 80vw;
+    }
 }
   
 
@@ -218,6 +230,18 @@ iframe {
     div.galeria {
         width: 80%;
         height: 35vw;
+    }
+    a.nav {
+        border-radius: 10px;
+        background-color: rgb(20, 20, 20);
+        margin: 20px;
+        font-size: 15px;
+    }
+    iframe {
+        width: 80vw;
+    }
+    a.up {
+        display: block;
     }
 }
 
