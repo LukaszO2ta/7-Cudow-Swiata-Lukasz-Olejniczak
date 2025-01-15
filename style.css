@@ -232,18 +232,17 @@ iframe {
         height: 35vw;
     }
     a.nav {
-        margin: 20px;
+        border-radius: 10px;
+        background-color: rgb(20, 20, 20);
+        margin: 15px;
         font-size: 15px;
+        padding: 5px;
     }
     iframe {
         width: 80vw;
     }
-    a.nav {
-        border-radius: 10px;
-        background-color: rgb(20, 20, 20);
-        margin: 20px;
-        font-size: 2vw;
-        padding: 5px;
+    a.up {
+        display: block;
     }
 }
 
